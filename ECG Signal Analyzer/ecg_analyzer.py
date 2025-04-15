@@ -8,7 +8,7 @@ print("Starting ECG Analyzer...")
 
 # Load data
 try:
-    data = pd.read_csv('data/sample_ecg.csv')
+    data = pd.read_csv('ECG Signal Analyzer/data/sample_ecg.csv')
     print("Data loaded successfully.")
 except Exception as e:
     print(f"Error loading data: {e}")
